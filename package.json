@@ -1,0 +1,11 @@
+{
+  "name": "seaspa-massage",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "mirror": "node scripts/mirror-site.mjs",
+    "fix": "node scripts/fix-mirror.mjs",
+    "start": "npx --yes serve site -p 5173",
+    "dev": "npx --yes serve site -p 5173"
+  }
+}

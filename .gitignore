@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+mirror-log.txt
+fix-log.txt
+.env
+.env.*
+source/
