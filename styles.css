@@ -496,10 +496,19 @@ h2 {
 .reviews {
   padding: clamp(3.5rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
   background: var(--bg-soft);
+  text-align: center;
+}
+.reviews h2 {
+  margin-inline: auto;
 }
 .review-score {
-  display: flex; align-items: center; gap: 1.25rem;
-  margin: 1.5rem 0 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 1.5rem auto 1.25rem;
+  width: fit-content;
+  text-align: left;
 }
 .score {
   margin: 0;
@@ -512,6 +521,12 @@ h2 {
   margin: 0;
   color: var(--muted);
   font-size: .9rem;
+}
+.reviews blockquote {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0;
+  border: 0;
 }
 blockquote {
   margin: 0;
@@ -526,6 +541,9 @@ blockquote p {
   font-style: italic;
   line-height: 1.45;
   color: rgba(28, 42, 46, 0.88);
+}
+.reviews > .text-link {
+  margin-inline: auto;
 }
 
 .visit {
