@@ -280,8 +280,9 @@ h2 {
   text-align: center;
 }
 .about h2 {
-  max-width: 28ch;
+  max-width: none;
   margin-inline: auto;
+  white-space: nowrap;
 }
 .about-grid {
   display: grid;
@@ -533,6 +534,7 @@ blockquote p {
 .foot a:hover { color: var(--link-hover); }
 
 @media (max-width: 860px) {
+  .about h2 { white-space: normal; }
   .brand-mark img { width: 76px; height: 76px; }
   .top-nav { display: none; }
   .about-grid, .treatment, .visit { grid-template-columns: 1fr; }
