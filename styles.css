@@ -6,8 +6,10 @@
   --bg-mist: #E9E4DF;
   --bg-deep: #E4DDD6;
   --sea-deep: #F5F1EE;
-  --sea: #0d4a57;
-  --sea-mid: #1a6b78;
+  --sea: #3B5249;
+  --sea-mid: #4a655a;
+  --btn: #3B5249;
+  --btn-hover: #4a655a;
   --foam: #4E2811;
   --sand: #4E2811;
   --gold: #b8955a;
@@ -150,19 +152,20 @@ a:hover {
 a.cta {
   display: inline-flex; align-items: center; gap: .65rem;
   padding: .9rem 1.45rem;
-  border: 1px solid #3a1c0c;
-  background: linear-gradient(135deg, #5c3318, #4E2811);
+  border: 1px solid var(--btn);
+  background: var(--btn);
   color: #fff !important;
   font-size: .78rem; font-weight: 700;
   letter-spacing: .14em; text-transform: uppercase;
   text-decoration: none;
   transition: transform .45s var(--ease), box-shadow .45s var(--ease), background .35s ease, color .35s ease, border-color .35s ease;
-  box-shadow: 0 14px 40px rgba(0,0,0,.28);
+  box-shadow: 0 14px 40px rgba(0,0,0,.22);
 }
 .cta:hover,
 a.cta:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #6e3d1f, #5c3318);
+  background: var(--btn-hover);
+  border-color: var(--btn-hover);
   color: #fff !important;
 }
 .cta span,
@@ -177,29 +180,29 @@ a.cta:hover {
 .cta--ghost,
 a.cta--ghost {
   background: #fff;
-  color: #2e160a !important;
-  border: 2px solid #4E2811;
+  color: var(--btn) !important;
+  border: 2px solid var(--btn);
   box-shadow: none;
 }
 .cta--ghost span,
 .cta--ghost svg,
 .cta--ghost:hover span,
 .cta--ghost:hover svg {
-  color: #2e160a !important;
+  color: var(--btn) !important;
 }
 .cta--ghost:hover,
 a.cta--ghost:hover {
-  background: #F5F1EE;
-  color: #1a0c05 !important;
-  border-color: #2e160a;
+  background: rgba(59, 82, 73, 0.08);
+  color: #2f423a !important;
+  border-color: #2f423a;
   box-shadow: none;
   transform: translateY(-1px);
 }
 .hero .cta--ghost,
 .hero a.cta--ghost {
-  background: rgba(30, 14, 6, 0.78);
+  background: rgba(250, 246, 240, 0.12);
   color: #fff !important;
-  border: 2px solid #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
   text-shadow: none;
   backdrop-filter: blur(6px);
 }
@@ -211,7 +214,7 @@ a.cta--ghost:hover {
 }
 .hero .cta--ghost:hover,
 .hero a.cta--ghost:hover {
-  background: rgba(30, 14, 6, 0.92);
+  background: rgba(250, 246, 240, 0.2);
   color: #fff !important;
   border-color: #fff;
 }
@@ -569,14 +572,14 @@ blockquote p {
 .visit-copy a.cta,
 .visit-copy a.cta:hover {
   color: #fff !important;
-  border-bottom: 1px solid #3a1c0c;
+  border-bottom: 1px solid var(--btn);
 }
 .visit-copy .cta--ghost,
 .visit-copy .cta--ghost:hover,
 .visit-copy a.cta--ghost,
 .visit-copy a.cta--ghost:hover {
-  color: #2e160a !important;
-  border-bottom: 2px solid #4E2811;
+  color: var(--btn) !important;
+  border-bottom: 2px solid var(--btn);
 }
 .visit-actions {
   display: flex; flex-wrap: wrap; gap: .75rem;
@@ -694,7 +697,7 @@ a.cta--ghost,
 a.cta--ghost:hover,
 .cta--ghost span,
 .cta--ghost:hover span {
-  color: #2e160a !important;
+  color: var(--btn) !important;
 }
 .hero .cta--ghost,
 .hero .cta--ghost:hover,
