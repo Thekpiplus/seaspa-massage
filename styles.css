@@ -95,16 +95,16 @@ a:hover {
   background:
     linear-gradient(
       180deg,
-      rgba(78, 40, 17, 0.38) 0%,
-      rgba(78, 40, 17, 0.16) 34%,
-      rgba(245, 241, 238, 0.12) 58%,
-      rgba(245, 241, 238, 0.82) 86%,
+      rgba(30, 14, 6, 0.62) 0%,
+      rgba(46, 22, 10, 0.48) 28%,
+      rgba(78, 40, 17, 0.28) 52%,
+      rgba(245, 241, 238, 0.45) 78%,
       #F5F1EE 100%
     ),
     radial-gradient(
-      ellipse 90% 70% at 50% 22%,
-      rgba(232, 213, 192, 0.2),
-      transparent 60%
+      ellipse 85% 65% at 50% 30%,
+      rgba(20, 10, 4, 0.42),
+      transparent 70%
     );
 }
 .hero-copy {
