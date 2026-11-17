@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts_gstatic_com/aHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL21vbnRzZXJyYXQvdjMxL0pU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts_gstatic_com/aHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL3VyYmFuaXN0L3YxOC9MMHhq.ttf) format('truetype');
+}
