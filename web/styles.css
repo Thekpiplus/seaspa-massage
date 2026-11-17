@@ -337,6 +337,7 @@ h2 {
   min-height: 0;
   max-height: none;
   object-fit: cover;
+  object-position: center;
 }
 .treatment-body {
   display: flex;
@@ -364,10 +365,34 @@ h2 {
   font-size: .92rem;
 }
 .duration {
-  margin: .7rem 0 0 !important;
-  font-size: .78rem !important;
-  letter-spacing: .08em;
-  color: rgba(78, 40, 17, 0.55) !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin: 1rem 0 0 !important;
+  padding: 0;
+  color: #4E2811 !important;
+  font-size: inherit !important;
+  letter-spacing: 0 !important;
+}
+.duration span {
+  display: inline-flex;
+  align-items: baseline;
+  gap: .22rem;
+  padding: .5rem .75rem;
+  background: rgba(78, 40, 17, 0.08);
+  border: 1px solid rgba(78, 40, 17, 0.2);
+  color: #4E2811;
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: lowercase;
+}
+.duration strong {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1;
 }
 .treatment-foot {
   margin-top: auto;
