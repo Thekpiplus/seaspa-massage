@@ -277,13 +277,19 @@ h2 {
 .about {
   padding: clamp(3.5rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
   background: var(--bg-soft);
+  text-align: center;
+}
+.about h2 {
+  max-width: 28ch;
+  margin-inline: auto;
 }
 .about-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem 2.5rem;
-  margin-top: 1.4rem;
+  margin: 1.4rem auto 0;
   max-width: 920px;
+  text-align: center;
 }
 .about-grid p {
   margin: 0;
@@ -291,6 +297,9 @@ h2 {
   font-size: 1.02rem;
   line-height: 1.65;
   font-weight: 500;
+}
+.about .text-link {
+  margin-inline: .65rem;
 }
 
 .treatments {
