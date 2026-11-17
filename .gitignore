@@ -7,3 +7,6 @@ fix-log.txt
 .env
 .env.*
 source/
+.hostinger/
+
+hostinger-deploy*.json
