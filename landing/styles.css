@@ -601,6 +601,13 @@ blockquote p {
   background:
     linear-gradient(180deg, var(--bg-soft) 0%, var(--bg-deep) 100%);
 }
+.finale-logo {
+  display: block;
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  margin: 0 auto 1rem;
+}
 .finale-brand {
   margin: 0;
   font-family: var(--font-display);
