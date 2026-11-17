@@ -605,8 +605,10 @@ blockquote p {
   display: block;
   width: 96px;
   height: 96px;
-  object-fit: contain;
   margin: 0 auto 1rem;
+  background-color: #4E2811;
+  -webkit-mask: url("assets/logo.png") center / contain no-repeat;
+  mask: url("assets/logo.png") center / contain no-repeat;
 }
 .finale-brand {
   margin: 0;
