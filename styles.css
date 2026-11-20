@@ -399,18 +399,18 @@ h2 {
 }
 .treatment-foot {
   margin-top: auto;
-  padding-top: 1.1rem;
-  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  padding-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 .price { margin: 0; font-size: 1.05rem; color: var(--ink); }
-.treatment-foot a {
-  font-size: .78rem;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--link);
-}
-.treatment-foot a:hover {
-  color: var(--link-hover);
+.treatment-foot .cta,
+.treatment-foot a.cta {
+  width: 100%;
+  justify-content: center;
+  box-shadow: 0 10px 28px rgba(78, 40, 17, 0.22);
 }
 .treatments > .text-link {
   display: block;
