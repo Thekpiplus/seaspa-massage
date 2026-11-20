@@ -5,7 +5,7 @@
   "scripts": {
     "mirror": "node scripts/mirror-site.mjs",
     "fix": "node scripts/fix-mirror.mjs",
-    "start": "npx --yes serve site -p 5173",
-    "dev": "npx --yes serve site -p 5173"
+    "start": "npx --yes serve web -p 5173",
+    "dev": "npx --yes serve web -p 5173"
   }
 }
